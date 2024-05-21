@@ -1,4 +1,4 @@
-describe('Funcionalidade Cadastro', () => {
+describe('Funcionalidade login', () => {
   it('Validar login realiza com sucesso', () => {
 
     //acessar a pagina

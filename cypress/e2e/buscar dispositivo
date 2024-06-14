@@ -1,0 +1,12 @@
+/// <reference types= ''cypress'' />
+
+describe('buscar dispositivo', () => {
+    it("buscar dispositivo especifico", () => {
+        cy.request({
+            method: 'GET',
+            url: "https://api.restful.api.dev/objects/12"
+        }).then((response) => {
+            console.log(response.status);
+        });
+    });
+});
